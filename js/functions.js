@@ -98,7 +98,7 @@ function timeElapse(date){
 	var days = Math.floor(seconds / (3600 * 24));	
 	var minutes = days;
 	var hours = Date.parse(current);
-	var result = "<span class=\"digit\">" + days + "</span> days <span class=\"digit\">" + hours + "</span> hours <span class=\"digit\">" + minutes + "</span> minutes <span class=\"digit\">" + seconds + "</span> seconds"; 
+	var result = "<span class=\"digit\">" + days + "</span> days <span class=\"digit\">" + hours + "</span> hours <span class=\"digit\">" + minutes + "</span> minutes <span class=\"digit\">" + seconds + "</span> second"; 
 	$("#elapseClock").html(result);
 }
 
